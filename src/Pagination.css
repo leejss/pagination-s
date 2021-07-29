@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  align-items: center;
+  background: tomato;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+}
+
+.item {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: 50ms;
+  cursor: pointer;
+}
+
+.item:hover {
+  background: rgba(135, 207, 235, 0.835);
+}
+
+.item.active {
+  background: skyblue;
+}
